@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <header id="header" class="p-3 mb-3">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#about" class="nav-link px-2 link-secondary menu">Об авторе</a></li>
+          <li><a href="#skills" class="nav-link px-2 link-body-emphasis">Навыки</a></li>
+          <li><a href="#portfolio" class="nav-link px-2 link-body-emphasis">Портфолио</a></li>
+          <li><a href="#contact" class="nav-link px-2 link-body-emphasis">Контакты</a></li>
+        </ul>
+
+        <div id="social" class="d-flex justify-content-between">
+          <a href="https://synergy.ru/lp/s/vpo/?utm_source=yandex_s&utm_medium=cpc&utm_campaign=58772729&utm_content=10191526677&utm_group=4441165174&utm_term=%D1%81%D0%B8%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F&site=none&marketer=brd&produkt=5162763&utm_gen=3&otdel=rsv&utm_keyword=brand&h1=%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%20%D0%A1%D0%B8%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F&h2=%D0%9F%D1%80%D0%B8%D1%91%D0%BC%D0%BD%D0%B0%D1%8F%20%D0%BA%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D0%B8%D1%8F&h3=%D0%9F%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%B8%20%D0%BF%D1%80%D1%8F%D0%BC%D0%BE%20%D1%81%D0%B5%D0%B9%D1%87%D0%B0%D1%81!&yclid=7393213893604016127">
+            <img src="img/Синергия.png" alt="mdo" width="32" height="32">
+          </a>
+          <a href="https://htmlacademy.ru/?utm_source=yandex&utm_medium=cpc&utm_campaign=ru_brand_49458608&utm_term=HTML%20academy&utm_content=none.9217660745.desktop.21051916802.%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&etext=&yclid=15104270834276237311">
+            <img src="img/HTML.png" alt="mdo" width="32" height="32">
+          </a>
+       </div>
+      </div>
+    </div>
+  </header>
+
+
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active align-items-center">
+        <img src="img/01_header.png" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Новый путь:<br>Веб-разработка</h1>
+            <p class="opacity-75">UX/UI дизайн</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/02_header.png" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Frontend разработка</h1>
+            <p>HTML, CSS и JavaScript</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="about" class="personal-info my-2 py-2 my-md-5 py-md-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <figure data-aos="zoom-in-left">
+            <img src="img/present.png" class="img-fluid" alt="about">
+          </figure>
+        </div>
+        <div class="col-md-6">
+          <div class="text-content m-2 p-2 m-md-5 p-md-5" data-aos="zoom-in-right">
+            <div class="section-header">
+              <h2 class="section-title">Евгения Колесникова</h2>
+            </div>
+
+            <div class="description">
+              <p>Я начинающий UX/UI дизайнер сайтов. Решила попробовать для себя эту новую специальность,
+                для чего прошла курс разрабокт в Синергии. Курс был очень насыщеный и увлекательный.
+                Благодаря ему я получила полное представление о профессии и хороший задел знаний для старта.
+                В дальнейшем планирую развиваться в области веб-дизайна, изучать дальше языки программирования
+                для реализации интересных и сложных проектов.
+              </p>
+             </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="skills" class="container marketing">
+    <div class="row">
+      <div class="col-lg-4">
+        <h2 class="fw-normal">UX/UI</h2>
+        <p>Разработка пользовательских сценариев, создание интерактивных прототипов и макетов в Figma</p>
+      </div>
+      <div class="col-lg-4">
+        <h2 class="fw-normal">HTML и CSS</h2>
+        <p>Создание HTML страниц с использованием CSS, адаптивная верстка под любой экран</p>
+      </div>
+      <div class="col-lg-4">
+        <h2 class="fw-normal">JavaScript</h2>
+        <p>Программирование на JS, использование фреймворка Vue</p>
+      </div>
+    </div>
+  </div>
+
+    
+  <div class="otstup">
+  <hr class="featurette-divider">
+
+    <div id="portfolio" class="container my-5">
+      <div class="p-3 text-center">
+        <h1 class="text-body-emphasis">Примеры работ</h1>
+      </div>
+    </div>
+
+       <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Верстка адаптивного сайта <span class="text-body-secondary">Simple
+            starter template</span></h2>
+        <p class="lead">Создание HTML файла, стилизация элементов в CSS, использование медиазапросов для адаптивной
+          верстки сайта под любой экран</p>
+        <div class="btn-left">
+          <a href="https://github.com/EvgeniaKolesnikova-D/Simple" target="_blank"
+            class="btn btn-dark px-5 py-3">GitHub</a>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <img src="img/Simple.png" class="img-fluid round" alt="rent_car">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Калькулятор <span class="text-body-secondary">на HTML, CSS и
+            JavaScript</span></h2>
+        <p class="lead">Выполняет основные арифметические операции, работает с десятичными и отрицательными числами.
+          Есть кнопки памяти</p>
+        <div class="btn-left">
+          <a href="https://github.com/EvgeniaKolesnikova-D/Calculator" target="_blank"
+            class="btn btn-dark px-5 py-3">GitHub</a>
+        </div>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="img/Calculator.png" class="img-fluid round" alt="Elva_shop">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div id="todo" class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Список дел - <span class="text-body-secondary">приложение на
+            Vue.js</span></h2>
+        <p class="lead">В приложении можно создать задачи, отметить выполненные или удалить лишнее
+        </p>
+        <div class="btn-left">
+          <a href="https://github.com/EvgeniaKolesnikova-D/ToDo-List" target="_blank" class="btn btn-dark px-5 py-3">GitHub</a>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <img src="img/Todolist.png" class="img-fluid round" alt="rent_car">
+      </div>
+    </div>
+  </div>
+
+    <section id="contact" class="get-in-touch">
+      <h1 class="title">Направить Сообщение</h1>
+      <form class="contact-form row">
+        <div class="form-field col-lg-6">
+          <input id="name" class="input-text js-input" type="text" required>
+          <label class="label" for="name">Имя</label>
+        </div>
+        <div class="form-field col-lg-6 ">
+          <input id="email" class="input-text js-input" type="email" required>
+          <label class="label" for="email">E-mail</label>
+        </div>
+        <div class="form-field col-lg-12">
+          <input id="message" class="input-text js-input" type="text" required>
+          <label class="label" for="message">Сообщение</label>
+        </div>
+        <div class="form-field col-lg-12">
+          <input class="submit-btn" type="submit" value="Отправить">
+        </div>
+      </form>
+    </section>
+
+    
+  <a id="upbutton" href="#" onclick="smoothJumpUp(); return false;">
+    <img src="img/arrow-up-circle.svg" height="50px" width="50px" alt="Top" title="Наверх">
+</a>
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    
+</body>
+
+</html>
